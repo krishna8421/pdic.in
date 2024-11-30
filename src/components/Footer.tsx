@@ -56,7 +56,7 @@ const Footer = () => (
           allowFullScreen={true}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        />
         <p className="text-sm text-white">
           © {new Date().getFullYear()} Prateek Dental Care and Implant Centre.
           All rights reserved.

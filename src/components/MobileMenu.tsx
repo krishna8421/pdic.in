@@ -3,6 +3,7 @@ import FocusLock from "react-focus-lock";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { Ref } from "react";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 interface IProps {
   isOpen: boolean;
@@ -19,7 +20,7 @@ const MobileMenu = ({ isOpen = false, onCloseClick, menuRef }: IProps) => (
   >
     <FocusLock
       className={cn(
-        "relative h-full w-full max-w-xs flex pt-10 bg-white transition duration-300",
+        "relative h-full w-full flex pt-10 bg-white transition duration-300 flex-col",
         isOpen ? "translate-x-0" : "-translate-x-full"
       )}
       disabled={!isOpen}
@@ -34,35 +35,26 @@ const MobileMenu = ({ isOpen = false, onCloseClick, menuRef }: IProps) => (
         <AiOutlineCloseCircle className="w-8 h-8" />
       </button>
       <nav className="m-auto flex flex-col items-start text-lg font-medium gap-5">
-        <a
-          className="transition hover:text-accent"
-          href="#services"
-          onClick={onCloseClick}
-        >
+        <Link className="transition hover:text-accent" href="/services">
           Services
-        </a>
-        <a
-          className="transition hover:text-accent"
-          href="#benefits"
-          onClick={onCloseClick}
-        >
+        </Link>
+        <Link className="transition hover:text-accent" href="/gallery">
+          Gallery
+        </Link>
+        <Link className="transition hover:text-accent" href="/#about">
+          About
+        </Link>
+        <Link className="transition hover:text-accent" href="/#benefits">
           Benefits
-        </a>
-        <a
-          className="transition hover:text-accent"
-          href="#team"
-          onClick={onCloseClick}
-        >
-          Team
-        </a>
-        <a
-          className="transition hover:text-accent"
-          href="#booking"
-          onClick={onCloseClick}
-        >
-          Booking
-        </a>
+        </Link>
       </nav>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.3775245922398!2d73.7703083!3d18.6020818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9d4046792f5%3A0xb1bad92a7987bca5!2sPrateek%20Dental%20Care%20%26%20Implant%20Centre!5e0!3m2!1sen!2sin!4v1732964685338!5m2!1sen!2sin"
+        className="w-full h-96 my-12 px-2 rounded-md"
+        allowFullScreen={true}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
     </FocusLock>
   </div>
 );
