@@ -85,13 +85,13 @@ const Header = () => {
             <Link className="transition hover:text-accent" href="/gallery">
               Gallery
             </Link>
-            <Link className="transition hover:text-accent" href="#about">
+            <Link className="transition hover:text-accent" href="/#about">
               About
             </Link>
-            <a className="transition hover:text-accent" href="#benefits">
+            <Link className="transition hover:text-accent" href="/#benefits">
               Benefits
-            </a>
-            <ButtonLink className="px-7 py-3" href="#booking">
+            </Link>
+            <ButtonLink className="px-7 py-3" href="/#booking">
               Booking
             </ButtonLink>
           </div>
