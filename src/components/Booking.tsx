@@ -44,6 +44,7 @@ const Booking = () => (
           placeholder="Additional Information..."
         />
         <button
+          type="submit"
           className={cn(
             "px-8 py-4 rounded-lg select-none text-white bg-accent hover:opacity-80",
             "transition duration-150"

@@ -9,7 +9,7 @@ const SmileMakeoverAndTeethWhiteningPage = () => {
       </h1>
       <div className="space-y-8">
         {/* Smile Makeover Section */}
-        <section>
+        <section className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold mb-4">Smile Makeover</h2>
           <p className="text-lg mb-4">
             A smile makeover aims to improve your smile by considering various

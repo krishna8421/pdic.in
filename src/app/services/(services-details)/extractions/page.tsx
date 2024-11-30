@@ -8,7 +8,7 @@ const ExtractionsPage = () => {
         Dental Extractions
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
             A dental extraction is a procedure to remove a tooth from its socket
             in the jawbone, typically performed by a dentist or oral surgeon.

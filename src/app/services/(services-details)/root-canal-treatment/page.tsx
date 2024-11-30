@@ -8,9 +8,10 @@ const RootCanalTreatmentPage = () => {
         Root Canal Treatment
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
-            A root canal treatment is a specialized dental procedure designed to save and repair a badly damaged or infected tooth.
+            A root canal treatment is a specialized dental procedure designed to
+            save and repair a badly damaged or infected tooth.
           </p>
           <h2 className="text-2xl font-bold mb-4">Procedure Steps</h2>
           <ol className="list-decimal list-inside space-y-2 text-base">
@@ -30,5 +31,4 @@ const RootCanalTreatmentPage = () => {
   );
 };
 
-
-export default RootCanalTreatmentPage
+export default RootCanalTreatmentPage;

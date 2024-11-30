@@ -8,13 +8,19 @@ const DentalFillingsPage = () => {
         Dental Fillings
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
-            Tooth fillings describe the replacement of hard tooth substance that has been lost due to various reasons. The primary causes include:
+            Tooth fillings describe the replacement of hard tooth substance that
+            has been lost due to various reasons. The primary causes include:
           </p>
           <ul className="list-disc list-inside space-y-2 text-base">
-            <li><strong>Caries (Tooth Decay):</strong> Most common reason for tooth substance loss</li>
-            <li><strong>Tooth Fracture:</strong> Structural damage to the tooth</li>
+            <li>
+              <strong>Caries (Tooth Decay):</strong> Most common reason for
+              tooth substance loss
+            </li>
+            <li>
+              <strong>Tooth Fracture:</strong> Structural damage to the tooth
+            </li>
           </ul>
           <h2 className="text-2xl font-bold mt-6 mb-4">Filling Materials</h2>
           <p className="text-lg">

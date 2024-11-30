@@ -8,7 +8,7 @@ const BridgesCrownsVeneersPage = () => {
         Bridges, Crowns, and Veneers
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold mb-4">Why Do Teeth Need Crowns?</h2>
           <p className="text-lg mb-4">
             A tooth needs a crown when it no longer is strong enough to
@@ -28,9 +28,9 @@ const BridgesCrownsVeneersPage = () => {
               provides long-term protection.
             </li>
             <li>
-              <strong>Cracks:</strong> For tooth cracks that don&apos;t extend into
-              the nerve, a crown prevents the crack from worsening by replacing
-              the protective enamel layer.
+              <strong>Cracks:</strong> For tooth cracks that don&apos;t extend
+              into the nerve, a crown prevents the crack from worsening by
+              replacing the protective enamel layer.
             </li>
             <li>
               <strong>Root Canal Treatment:</strong> After a root canal, teeth

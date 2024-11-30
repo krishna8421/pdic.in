@@ -1,7 +1,6 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
 
-
 const OrthodonticBracesPage = () => {
   return (
     <Wrapper>
@@ -9,9 +8,10 @@ const OrthodonticBracesPage = () => {
         Orthodontic Braces & Aligners
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
-            Orthodontic treatment is a method of straightening or moving teeth to improve their appearance, functionality, and long-term health.
+            Orthodontic treatment is a method of straightening or moving teeth
+            to improve their appearance, functionality, and long-term health.
           </p>
           <h2 className="text-2xl font-bold mb-4">Treatment Benefits</h2>
           <ul className="list-disc list-inside space-y-2 text-base">
@@ -34,4 +34,4 @@ const OrthodonticBracesPage = () => {
   );
 };
 
-export default OrthodonticBracesPage
+export default OrthodonticBracesPage;

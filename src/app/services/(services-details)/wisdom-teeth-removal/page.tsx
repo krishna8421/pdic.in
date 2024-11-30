@@ -8,7 +8,7 @@ const WisdomTeethRemovalPage = () => {
         Wisdom Teeth Removal
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
             Wisdom tooth extraction is a surgical procedure to remove one or
             more wisdom teeth, which are the four permanent adult teeth located

@@ -8,7 +8,7 @@ const KidsDentistryPage = () => {
         Kids Dentistry
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
             Pediatric dentistry focuses on promoting dental health for children
             and providing educational resources for parents.

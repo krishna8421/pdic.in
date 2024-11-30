@@ -8,7 +8,7 @@ const PreventiveDentistryPage = () => {
         Preventive Dentistry
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
             Preventive dentistry is the practice of maintaining oral health to
             avoid cavities, gum disease, and enamel wear.

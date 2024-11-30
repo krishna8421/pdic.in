@@ -8,7 +8,7 @@ const DenturesPage = () => {
         Dentures
       </h1>
       <div className="space-y-8">
-        <section>
+        <section className="mx-auto max-w-4xl">
           <p className="text-lg mb-4">
             Dentures are removable oral appliances designed to replace missing
             teeth in your upper or lower jaw.
