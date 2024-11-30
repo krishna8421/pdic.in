@@ -3,6 +3,7 @@ import Image from "next/image";
 import servicesImage from "../assets/services.svg";
 import { AiOutlineSafety } from "react-icons/ai";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const Services = () => (
   <FlexSection
@@ -16,7 +17,7 @@ const Services = () => (
         "rounded-br-[4rem] -z-10"
       )}
     ></div>
-    <div className="flex-1">
+    <div className="">
       <h2 className="text-4xl font-semibold">
         Always <span className="text-accent">Smile</span> on Every Occasion
       </h2>
@@ -34,23 +35,36 @@ const Services = () => (
       <h3 className="mt-20 text-2xl font-semibold">What We Offer</h3>
       <ul className="mt-8 grid grid-cols-1 gap-x-11 gap-y-6 sm:grid-cols-2">
         {[
-          "Preventive Checkups",
-          "Cosmetic Dentistry",
-          "Orthodontics",
-          "Emergency Care",
+          "Orthodontic Braces and Aligners",
+          "Root Canal Treatment (RCT)",
+          "Wisdom Teeth Removal",
           "Dental Implants",
-          "Pediatric Dentistry",
-          "Consultations",
-          "Teledentistry",
-        ].map((title, index) => (
-          <li
-            className="flex items-center gap-2 text-lg font-medium"
-            key={index}
-          >
-            <AiOutlineSafety className="w-6 h-6" />
-            {title}
-          </li>
-        ))}
+          "Scaling and Polishing",
+          "Dental Fillings",
+          "Bridges, Crowns, and Veneers",
+          "Dentures",
+          "Kids Dentistry",
+          "Smile Makeover and Teeth Whitening",
+          "Extractions",
+          "Preventive Dentistry",
+        ].map((title, index) => {
+          const url = title
+            .toLowerCase()
+            .replace(/\(rct\)/, "")
+            .replace(/,/g, "")
+            .trim()
+            .replace(/\s/g, "-");
+          return (
+            <Link
+              href={`/services/${url}`}
+              className="flex items-center gap-2 text-lg font-medium"
+              key={index}
+            >
+              <AiOutlineSafety className="w-6 h-6 flex-shrink-0" />
+              {title}
+            </Link>
+          );
+        })}
       </ul>
     </div>
   </FlexSection>

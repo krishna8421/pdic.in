@@ -1,18 +1,29 @@
 import { cn } from "@/lib/utils";
-import { DetailedHTMLProps, HTMLAttributes } from "react";
+import Link from "next/link";
 
-interface IProps
-  extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+interface IProps {
   Icon: React.ReactNode;
   text: React.ReactNode;
+  href: string;
   [x: string]: any;
 }
 
-const HeaderInfo = ({ Icon, text, className = "", ...rest }: IProps) => (
-  <div className={cn("flex items-center gap-1", className)} {...rest}>
-    {Icon}
-    {text}
-  </div>
-);
+const HeaderInfo = ({ Icon, text, className = "", href, ...rest }: IProps) => {
+  const finalClassName = cn("flex items-center gap-2", className);
+  if (!href) {
+    return (
+      <div className={finalClassName} {...rest}>
+        {Icon}
+        {text}
+      </div>
+    );
+  }
+  return (
+    <Link href={href} target="_blank" className={finalClassName} {...rest}>
+      {Icon}
+      {text}
+    </Link>
+  );
+};
 
 export default HeaderInfo;

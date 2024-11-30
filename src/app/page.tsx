@@ -5,16 +5,16 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import HowTo from "@/components/HowTo";
 import Services from "@/components/Services";
-import Team from "@/components/Team";
+import About from "@/components/About";
 
 const Home = () => (
   <>
     <Header />
     <Hero />
+    <About />
     <HowTo />
     <Services />
     <Benefits />
-    <Team />
     <Booking />
     <Footer />
   </>

@@ -31,16 +31,16 @@ const Benefits = () => (
             alt="laser technology"
           />
         }
-        name="Advanced Lasers"
-        description="State-of-the-art diode lasers ensure your treatment is quick and painless."
+        name="Root Canal Treatment (RCT)"
+        description="Say goodbye to tooth pain and hello to long-lasting relief."
       />
       <BenefitItem
         className="lg:mt-12"
         Icon={
           <Image className="w-24 h-24" src={scannerImage} alt="3D scanner" />
         }
-        name="3D Scanners"
-        description="High-tech 3D scanners provide rapid imaging in an automated process."
+        name="Bridges, Crowns, & Veneers"
+        description="Perfectly crafted solutions to protect and beautify your teeth."
       />
       <BenefitItem
         Icon={
@@ -51,7 +51,7 @@ const Benefits = () => (
           />
         }
         name="Dental Implants"
-        description="Over 30 years of experience in implant placements. Enjoy your favorite foods again!"
+        description="A permanent, natural-feeling solution for missing teeth."
       />
     </div>
   </FlexSection>
