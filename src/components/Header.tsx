@@ -76,7 +76,13 @@ const Header = () => {
             className="text-2xl font-bold transition hover:opacity-80"
             href="/"
           >
-            <span className="text-accent">PD</span>IC
+            <div className="md:hidden">
+              <span className="text-accent">PD</span>IC
+            </div>
+            <div className="hidden md:block">
+              Prateek{" "}
+              <span className="text-accent">Dental Care & Implant Centre</span>
+            </div>
           </Link>
           <div className="hidden md:flex items-center gap-7 text-sm font-medium">
             <Link className="transition hover:text-accent" href="/services">
