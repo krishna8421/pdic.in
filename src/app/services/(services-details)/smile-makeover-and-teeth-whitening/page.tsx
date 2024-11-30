@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
 
-export const SmileMakeoverAndTeethWhiteningPage = () => {
+const SmileMakeoverAndTeethWhiteningPage = () => {
   return (
     <Wrapper>
       <h1 className="text-center text-4xl font-semibold py-12 text-accent">
