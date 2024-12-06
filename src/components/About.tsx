@@ -1,6 +1,6 @@
 "use client";
 
-import doctorImage from "../assets/doctor.JPG";
+import doctorImage from "../assets/doctor.png";
 import FlexSection from "./FlexSection";
 import Image from "next/image";
 
