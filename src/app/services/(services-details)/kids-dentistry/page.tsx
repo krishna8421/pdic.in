@@ -1,5 +1,11 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Kids Dentistry in Wakad | Prateek Dental Care & Implant Centre",
+  description: "Looking for kids' dentistry in Wakad? Visit Prateek Dental Care & Implant Centre for expert pediatric dental services. Ensuring a healthy smile for your little ones!",
+};
 
 const KidsDentistryPage = () => {
   return (

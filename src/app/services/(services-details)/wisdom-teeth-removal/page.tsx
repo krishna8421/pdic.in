@@ -1,5 +1,11 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Wisdom Teeth Removal in Wakad, Pimpri-Chinchwad | Prateek Dental Care",
+  description: "Looking for wisdom teeth removal in Wakad, Pimpri-Chinchwad? Visit Prateek Dental Care & Implant Centre for safe and painless removal by experienced professionals. Book your consultation today!",
+};
 
 const WisdomTeethRemovalPage = () => {
   return (

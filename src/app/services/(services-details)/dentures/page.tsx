@@ -1,5 +1,11 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Dentures Clinic in Wakad| Prateek Dental Care & Implant Centre",
+  description: "Discover high-quality dentures at Prateek Dental Care & Implant Centre in Wakad. Our expert team provides personalized care for a perfect smile and comfortable fit. Book an appointment today!",
+};
 
 const DenturesPage = () => {
   return (

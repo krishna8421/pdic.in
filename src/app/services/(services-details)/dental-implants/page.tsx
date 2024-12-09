@@ -1,5 +1,11 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dental Implant Fixing in Wakad | Prateek Dental Care & Implant Centre",
+  description: "Looking for reliable dental implant services in Wakad? Prateek Dental Care & Implant Centre offers expert dental implant fixing with advanced technology and personalized care for lasting smiles.",
+};
 
 const DentalImplantsPage = () => {
   return (

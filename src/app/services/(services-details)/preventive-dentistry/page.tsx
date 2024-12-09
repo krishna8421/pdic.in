@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
 
+
 const PreventiveDentistryPage = () => {
   return (
     <Wrapper>

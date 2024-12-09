@@ -1,5 +1,11 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dental Scaling and Polishing in Wakad | Prateek Dental Care & Implant Centre",
+  description: "Get professional dental scaling and polishing services at Prateek Dental Care & Implant Centre in Wakad/Pimpri Chinchwad. Improve your smile and oral health today!",
+};
 
 const ScalingAndPolishingPage = () => {
   return (

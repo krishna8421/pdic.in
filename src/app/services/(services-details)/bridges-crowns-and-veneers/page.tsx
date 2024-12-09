@@ -1,5 +1,11 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dental Bridges, Crowns, and Veneers in Wakad | Prateek Dental Care & Implant Centre",
+  description: "Looking for dental bridges, crowns, and veneers in Wakad? Visit Prateek Dental Care & Implant Centre for high-quality treatments to improve your smile and oral health.",
+};
 
 const BridgesCrownsVeneersPage = () => {
   return (

@@ -1,5 +1,11 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Orthodontic treatment braces in Wakad/Pimpri chinchwad | Prateek Dental Care",
+  description: "Get the perfect smile with orthodontic braces and aligners at Prateek Dental Care & Implant Centre in Wakad. Expert treatment for all your dental needs. Book your consultation today!",
+};
 
 const OrthodonticBracesPage = () => {
   return (
