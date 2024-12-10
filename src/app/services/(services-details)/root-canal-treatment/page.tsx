@@ -3,8 +3,8 @@ import Wrapper from "@/components/Wrapper";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best Dental Fillings in Wakad, Pimpri-Chinchwad | Prateek Dental Care & Implant Centre",
-  description: "Get the best dental fillings in Wakad at Prateek Dental Care & Implant Centre. We offer expert dental care, including high-quality fillings for cavities, to restore your smile and oral health.",
+  title: "Root Canal Treatment in Wakad, Pimpri-Chinchwad | Prateek Dental Care & Implant Centre",
+  description: "Get expert Root Canal Treatment at Prateek Dental Care & Implant Centre in Wakad, Pimpri-Chinchwad. Safe, painless, and effective solutions for your dental health.",
 };
 
 const RootCanalTreatmentPage = () => {
